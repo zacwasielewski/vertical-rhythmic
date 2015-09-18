@@ -22,7 +22,7 @@ $vr-root-px	: 16px !default;
 	$font-size:$font-size/($font-size*0+1);
 	$line-height:$line-height/($line-height*0+1);
 	// Compute ratio
-	$vr-ratio:$line-height/$font-size !global;
+	$vr-ratio:$line-height/$font-size;
 }
 
 /*
